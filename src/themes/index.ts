@@ -1,13 +1,15 @@
 export const THEME = {
   COLORS: {
     PRIMARY: "#3E89CC",
+    SECONDARY: "#FA3764",
+
     BACKGROUND: "#ebf0ec",
-    
+
     DISABLED: "#D0D0D0",
-    
+
     TITLE: "#0E0E11",
     TEXT: "#575767",
-    TEXT_DISABLED: "#B9B9BE"
+    TEXT_DISABLED: "#B9B9BE",
   },
 
   FONT: {
@@ -20,6 +22,6 @@ export const THEME = {
       XL: 32,
       MD: 18,
       SM: 14,
-    }
-  }
-}
+    },
+  },
+};

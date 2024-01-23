@@ -15,5 +15,5 @@ export const STYLES = StyleSheet.create({
     fontFamily: THEME.FONT.FAMILY.BOLD,
     fontSize: THEME.FONT.SIZE.SM,
     color: THEME.COLORS.TEXT_DISABLED,
-  }
+  },
 });

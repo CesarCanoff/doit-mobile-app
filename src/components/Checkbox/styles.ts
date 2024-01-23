@@ -6,8 +6,8 @@ export const STYLE = StyleSheet.create({
   CHECKBOX_CONTAINER: {
     backgroundColor: THEME.COLORS.BACKGROUND,
     padding: 5,
-    flexDirection: 'row',
-    alignItems: 'center',
+    flexDirection: "row",
+    alignItems: "center",
 
     marginBottom: 10,
   },
@@ -15,38 +15,32 @@ export const STYLE = StyleSheet.create({
   CHECKBOX_AREA: {
     borderColor: THEME.COLORS.TEXT_DISABLED,
     borderWidth: 2,
-    
+
     width: 30,
     height: 30,
-    
+
     borderRadius: 8,
 
     marginRight: 20,
 
-    justifyContent: 'center',
-    alignItems: 'center',
+    justifyContent: "center",
+    alignItems: "center",
   },
 
   CHECKBOX_TITLE: {
-    width: '90%',
+    width: "90%",
 
     color: THEME.COLORS.TEXT,
     fontSize: THEME.FONT.SIZE.MD,
     fontFamily: THEME.FONT.FAMILY.MEDIUM,
   },
-
+  
   CHECKBOX_DISABLED_TITLE: {
-    width: '90%',
-    textDecorationLine: 'line-through',
+    width: "90%",
+    textDecorationLine: "line-through",
 
     color: THEME.COLORS.TEXT_DISABLED,
     fontSize: THEME.FONT.SIZE.MD,
     fontFamily: THEME.FONT.FAMILY.MEDIUM,
   },
-
-  CHECKBOX_TEXT_TASK_CATEGORY: {
-    color: THEME.COLORS.PRIMARY,
-    fontSize: THEME.FONT.SIZE.SM,
-    fontFamily: THEME.FONT.FAMILY.SEMIBOLD,
-  },
-})
+});

@@ -10,4 +10,4 @@ export const AppRoutes = () => {
       <Screen name="Home" component={Home} />
     </Navigator>
   );
-}
+};

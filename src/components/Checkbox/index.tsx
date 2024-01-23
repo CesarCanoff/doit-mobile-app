@@ -9,12 +9,10 @@ type Props = {
   toggleCheckBox?: () => void;
 
   title: string;
-  taskCategory?: string;
 };
 
 export const Checkbox = ({
   title,
-  taskCategory = "",
   isChecked = false,
   toggleCheckBox,
 }: Props) => {
@@ -44,14 +42,6 @@ export const Checkbox = ({
                 {title}
               </Text>
             )}
-
-            {taskCategory && !isChecked && (
-              <View>
-                <Text style={STYLE.CHECKBOX_TEXT_TASK_CATEGORY}>
-                  {taskCategory}
-                </Text>
-              </View>
-            )}
           </View>
         </View>
       ) : (
@@ -76,14 +66,6 @@ export const Checkbox = ({
             <Text style={STYLE.CHECKBOX_TITLE} numberOfLines={2}>
               {title}
             </Text>
-
-            {taskCategory && (
-              <View>
-                <Text style={STYLE.CHECKBOX_TEXT_TASK_CATEGORY}>
-                  {taskCategory}
-                </Text>
-              </View>
-            )}
           </View>
         </TouchableOpacity>
       )}

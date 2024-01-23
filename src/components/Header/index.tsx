@@ -7,7 +7,12 @@ import { SafeAreaView } from "react-native-safe-area-context";
 
 import { TasksStatus } from "@components/TaskStatus";
 
-export const Header = () => {
+type Props = {
+  toDoTasks: number;
+  completedTasks: number;
+};
+
+export const Header = ({ completedTasks, toDoTasks }: Props) => {
   const [dateSplit, setDateSplit] = useState<string[]>([]);
 
   useEffect(() => {
@@ -22,7 +27,7 @@ export const Header = () => {
           {dateSplit[1]} {dateSplit[2]}, {dateSplit[3]}
         </Text>
 
-        <TasksStatus />
+        <TasksStatus completedTasks={completedTasks} toDoTasks={toDoTasks} />
       </SafeAreaView>
     </View>
   );

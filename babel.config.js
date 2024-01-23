@@ -14,7 +14,6 @@ module.exports = function (api) {
             "@themes": "./src/themes",
           }
       }],
-      'react-native-reanimated/plugin',
     ]
   };
 };

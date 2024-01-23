@@ -6,9 +6,9 @@ export const STYLES = StyleSheet.create({
   DATE_CONTAINER: {
     width: "90%",
     alignSelf: "center",
-    
+
     backgroundColor: THEME.COLORS.BACKGROUND,
-    
+
     paddingTop: 32,
     paddingBottom: 14,
 
@@ -20,4 +20,4 @@ export const STYLES = StyleSheet.create({
     fontSize: THEME.FONT.SIZE.XL,
     fontFamily: THEME.FONT.FAMILY.BOLD,
   },
-})
+});

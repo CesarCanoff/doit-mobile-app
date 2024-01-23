@@ -6,5 +6,5 @@ export const STYLES = StyleSheet.create({
     backgroundColor: "#000",
     justifyContent: "center",
     alignItems: "center",
-  }
-})
+  },
+});

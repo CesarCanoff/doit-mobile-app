@@ -7,4 +7,4 @@ export const Loading = () => {
       <ActivityIndicator size="large" color="blue" />
     </View>
   );
-}
+};

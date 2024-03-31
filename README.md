@@ -29,7 +29,7 @@
   ```
 
   1. Clone the repository:
-  Open your terminal (Command Prompt for Windows) and execute the following command to clone the Event-Go repository:
+  Open your terminal (Command Prompt for Windows) and execute the following command to clone the Do It repository:
   ```bash
   git clone git@github.com:CesarCanoff/doit-mobile-app.git
   ```
